@@ -1,0 +1,16 @@
+% rebase('base.html')
+<style>
+    .center {
+    text-align:  center;
+    color: #FF8C00;
+
+    }
+</style>
+
+<div class="center">
+    <h1>Name is the cocktail</h1>
+    <h2>Name: {{ drinks['strDrink'] }}</h2>
+    <h3>Alcoholic: {{ drinks['strAlcoholic'] }}</h3>
+    <p>Instructions: {{ drinks['strInstructions'] }}</p>
+    <img src={{ drinks['strDrinkThumb'] }} alt="">
+</div>
